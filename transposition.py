@@ -14,4 +14,8 @@ def transposition(message):
     return transposed_content
 
 
-print(transposition(content))    
+
+result =  transposition(content)
+
+with open('newMessage.txt', 'w') as file: 
+     content = file.write(result)    
