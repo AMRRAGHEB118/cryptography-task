@@ -5,7 +5,7 @@ with open('originalMessage.txt', 'r') as file:
     originalMessage = file.read().strip()   
 
 # 1 - declare var for new message 
-# 2 - make loop for each char in originalMessage
+# 2 - create loop on originalMessage
 # 3 - search about index of char in alphabet
 # 4 - get new char that precedes old char with 3 places in alphabet
 # 5 - push new char in new message
